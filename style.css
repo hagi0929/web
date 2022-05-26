@@ -1,5 +1,5 @@
 .menu {
-    width: 330px;
+    width: 400px;
     height: 32px;
     display: flex;
     flex-wrap: nowrap;
@@ -9,11 +9,13 @@
 }
 .item {
     background: #e57373;
-    width: 100px;
+    width: 90px;
     height: 30px;
     border: 1px solid black;
-    font-szie: 30px;
     display: flex;
     justify-content:center;
     align-items:center;
+}
+.selected {
+    background: red;
 }
